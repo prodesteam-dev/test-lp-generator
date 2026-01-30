@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="革新的なソリューションでビジネスの効率化と成長を実現します。無料トライアル実施中。" />
+  <meta property="og:title" content="革新的なソリューション" />
+  <meta property="og:description" content="革新的なソリューションでビジネスの効率化と成長を実現します。無料トライアル実施中。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=%E9%9D%A9%E6%96%B0%E7%9A%84%E3%81%AA%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3" />
+  <title>革新的なソリューション</title>
+
+  <!-- Google Fonts Noto Sans JP -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p0f7H6x5X3x5jW2q8Nq7j3r6v4Y1Z5lN7q8Z5v3Z1lV7b7x9l0w7d0f7y3d4v9l7a" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="header" role="banner">
+    <div class="container header__container">
+      <a href="#hero" class="header__logo" aria-label="ホームへ戻る">革新的なソリューション</a>
+      <button class="header__hamburger" aria-label="メニューを開く" aria-controls="nav-menu" aria-expanded="false">
+        <span class="hamburger-icon"></span>
+      </button>
+      <nav id="nav-menu" class="header__nav" role="navigation" aria-label="メインナビゲーション">
+        <ul class="nav__list">
+          <li><a href="#hero" class="nav__link">ホーム</a></li>
+          <li><a href="#challenges" class="nav__link">課題</a></li>
+          <li><a href="#features" class="nav__link">特徴</a></li>
+          <li><a href="#contact" class="nav__link cta-button">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ヒーローセクション -->
+    <section id="hero" class="hero section" aria-label="ヒーローセクション">
+      <div class="container hero__container">
+        <div class="hero__content fade-in">
+          <h1 class="hero__heading">ビジネスを変革する</h1>
+          <h2 class="hero__subheading">次世代のソリューション</h2>
+          <p class="hero__text">効率化と成長を実現する革新的なアプローチ</p>
+          <a href="#contact" class="btn btn--primary hero__cta">今すぐ始める</a>
+        </div>
+        <div class="hero__image slide-up" aria-hidden="true">
+          <img src="https://via.placeholder.com/800x600.png?text=%E3%83%92%E3%83%BC%E3%83%AD%E3%83%BC%E7%94%BB%E5%83%8F" alt="ヒーロー画像" />
+        </div>
+      </div>
+    </section>
+
+    <!-- 課題セクション -->
+    <section id="challenges" class="challenges section" aria-label="課題セクション">
+      <div class="container challenges__container fade-in">
+        <div class="challenges__image" aria-hidden="true">
+          <img src="https://via.placeholder.com/800x600.png?text=%E8%AA%B2%E9%A1%8C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8" alt="課題イメージ" />
+        </div>
+        <div class="challenges__content">
+          <h2 class="section__heading">こんな課題はありませんか？</h2>
+          <p class="section__text">多くの企業が直面している問題</p>
+          <ul class="bullet-list" aria-label="課題のリスト">
+            <li>時間がかかる</li>
+            <li>コストが高い</li>
+            <li>効果が見えない</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 特徴セクション -->
+    <section id="features" class="features section" aria-label="特徴セクション">
+      <div class="container features__container fade-in">
+        <div class="features__content">
+          <h2 class="section__heading">主な特徴</h2>
+          <h3 class="section__subheading">選ばれる理由</h3>
+          <p class="section__text">3つの強み</p>
+          <ul class="bullet-list features__list" aria-label="特徴のリスト">
+            <li><i class="fa-solid fa-bolt"></i> 高速処理</li>
+            <li><i class="fa-solid fa-wallet"></i> 低コスト</li>
+            <li><i class="fa-solid fa-cogs"></i> 簡単導入</li>
+          </ul>
+        </div>
+        <div class="features__image" aria-hidden="true">
+          <img src="https://via.placeholder.com/800x600.png?text=%E7%89%B9%E5%BE%B4%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3" alt="特徴アイコン" />
+        </div>
+      </div>
+    </section>
+
+    <!-- CTAセクション -->
+    <section id="contact" class="contact section" aria-label="お問い合わせセクション">
+      <div class="container contact__container fade-in">
+        <div class="contact__content">
+          <h2 class="section__heading">今すぐお問い合わせ</h2>
+          <h3 class="section__subheading">無料トライアル実施中</h3>
+          <p class="section__text">まずはお気軽にご相談ください</p>
+          <form id="contact-form" class="contact__form" aria-label="お問い合わせフォーム" novalidate>
+            <div class="form-group">
+              <label for="name">お名前<span aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" required aria-required="true" aria-describedby="name-error" />
+              <span id="name-error" class="form-error" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">メールアドレス<span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" required aria-required="true" aria-describedby="email-error" />
+              <span id="email-error" class="form-error" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">お問い合わせ内容</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn--secondary">お問い合わせ</button>
+          </form>
+        </div>
+        <div class="contact__image" aria-hidden="true">
+          <img src="https://via.placeholder.com/800x600.png?text=%E3%82%B3%E3%83%B3%E3%82%BF%E3%82%AF%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0" alt="コンタクトフォーム" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__container">
+      <p>&copy; 2024 革新的なソリューション. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js" defer></script>
+</body>
+</html>
